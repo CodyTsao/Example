@@ -10,7 +10,7 @@
 		background-color:#006030;
 		color:white;
 		font-weight:bold; 
-		font-size:24px;
+		font-size:21px;
 		text-align:center;
 		padding:8px;
 	}
@@ -26,17 +26,27 @@
 		width:640px; 
 		height:150px;
 		padding:10px; 
-		margin:10px; 
-		background-color:white;
+		margin-top:6px;
+		margin-left:22px;
+		margin-right:22px;
+		background-color:#FCFCFC;
 		display:inline-block;
 		vertical-align:top;
 		text-align:center;	
 		line-height:30px;
 	}
+	@media screen and (max-width:600px)
+	{
+		.head{font-size:24px;}
+		.content{width:100%;text-align:center;}
+	}
 	</style>
 </head>
-<body>
+<body style="margin:0px; background-color:#eeeeee;">
 	<div class="title">個人簡介</div>
+	<div class="outter">
+	
+	</div>
 	<div class="content">
 		<div class="box">
 			<div class="title">學歷</div>
@@ -59,19 +69,19 @@
 	<div class="box">
 		<div class="title">為了成為工程師，曾經做過什麼努力？</div>
 		<div class="content">
-			學生時期學過Java跟Android，做過一兩個簡單的小遊戲跟作品，最近在閒暇之餘會在Youtube上學習基礎的html、css語法
+			學生時期學過Java跟Android，做過一兩個簡單的小遊戲跟作品，最近在閒暇之餘會在Youtube上學習html、css跟javascript的基礎概念
 		</div>
 	</div>
 	<div class="box">
 		<div class="title">對於全端工程師的職業想像是什麼？</div>
 		<div class="content">
-			設計良好順暢的流程，並解決客戶提出的需求，如報表
+			設計良好人性化的操作流程，並解決客戶提出的需求，如報表的顯示、第三方支付的串接等
 		</div>
 	</div>
 	<div class="box">
 		<div class="title">如果參與這個計畫，會怎麼安排學習時間？</div>
 		<div class="content">
-			由於平日要上班，固可能無法參與定期會議以及討論。學習時間主要會運用周末，六日各花兩小時的時間觀看課程
+			由於平日要上班，固可能無法參與定期會議以及討論。學習時間主要會運用周末來觀看課程，並在空閒之餘做上機的練習
 		</div>
 	</div>
 	<div class="box">
@@ -84,7 +94,7 @@
 	<div class="box">
 		<div class="title">想要對我們說的事情？</div>
 		<div class="content">
-			
+			感謝各位冗長的閱讀			
 		</div>
 	</div>
 </body>
